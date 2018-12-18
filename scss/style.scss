@@ -11,17 +11,26 @@ $secondary: #efac78;
 $tertiary: #29bae4;
 $quarternary: #79efb4;
 
-
 @mixin gradient-background(){
-	background: rgba(238,118,173,1);
-	background: -moz-linear-gradient(45deg, rgba(238,118,173,1) 0%, rgba(239,172,120,1) 100%);
-	background: -webkit-gradient(left bottom, right top, color-stop(0%, rgba(238,118,173,1)), color-stop(100%, rgba(239,172,120,1)));
-	background: -webkit-linear-gradient(45deg, rgba(238,118,173,1) 0%, rgba(239,172,120,1) 100%);
-	background: -o-linear-gradient(45deg, rgba(238,118,173,1) 0%, rgba(239,172,120,1) 100%);
-	background: -ms-linear-gradient(45deg, rgba(238,118,173,1) 0%, rgba(239,172,120,1) 100%);
-	background: linear-gradient(45deg, rgba(238,118,173,1) 0%, rgba(239,172,120,1) 100%);
+	background: rgba(52, 231, 228,1.0);
+	background: -moz-linear-gradient(45deg, rgba(52, 231, 228,1.0) 0%,rgba(11, 232, 129,1.0) 100%);
+	background: -webkit-gradient(left bottom, right top, color-stop(0%, rgba(52, 231, 228,1.0)), color-stop(100%,rgba(11, 232, 129,1.0)));
+	background: -webkit-linear-gradient(45deg,rgba(52, 231, 228,1.0) 0%,rgba(11, 232, 129,1.0) 100%);
+	background: -o-linear-gradient(45deg, rgba(52, 231, 228,1.0) 0%,rgba(11, 232, 129,1.0) 100%);
+	background: -ms-linear-gradient(45deg,rgba(52, 231, 228,1.0) 0%,rgba(11, 232, 129,1.0) 100%);
+	background: linear-gradient(45deg,rgba(52, 231, 228,1.0) 0%, rgba(11, 232, 129,1.0) 100%);
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#448ef6', endColorstr='#af05a9', GradientType=1 );
 }
+// @mixin gradient-background(){
+// 	background: rgba(238,118,173,1);
+// 	background: -moz-linear-gradient(45deg, rgba(238,118,173,1) 0%, rgba(239,172,120,1) 100%);
+// 	background: -webkit-gradient(left bottom, right top, color-stop(0%, rgba(238,118,173,1)), color-stop(100%, rgba(239,172,120,1)));
+// 	background: -webkit-linear-gradient(45deg, rgba(238,118,173,1) 0%, rgba(239,172,120,1) 100%);
+// 	background: -o-linear-gradient(45deg, rgba(238,118,173,1) 0%, rgba(239,172,120,1) 100%);
+// 	background: -ms-linear-gradient(45deg, rgba(238,118,173,1) 0%, rgba(239,172,120,1) 100%);
+// 	background: linear-gradient(45deg, rgba(238,118,173,1) 0%, rgba(239,172,120,1) 100%);
+// 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#448ef6', endColorstr='#af05a9', GradientType=1 );
+// }
 
 @mixin border-radius($radius) {
   -webkit-border-radius: $radius;
